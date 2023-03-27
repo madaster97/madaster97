@@ -37,7 +37,7 @@ Here are some ideas to get you started:
 - [Contributed](https://github.com/auth0/express-openid-connect/pull/291) JWT authentication functionality to an Openid Connect library
 
 #### Authentication Systems
-- [Contributed](https://github.com/tavrez/openssh-sk-winhello/pull/16) to a FIDO/WebAuthn library that brighes OpenSSH with Windows Hello
+- [Contributed](https://github.com/tavrez/openssh-sk-winhello/pull/16) to a FIDO/WebAuthn library that bridges OpenSSH with Windows Hello
 - Identified a broken authentication issue in one of my company's integrations. I used my knowledge of crpytography to exploit an encryption system
 
 #### CSRF Protection
