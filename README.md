@@ -42,4 +42,4 @@ Here are some ideas to get you started:
 
 #### CSRF Protection
 - Identified a login CSRF attack at my company, and prevented us from pushing the code to production
-- Had a [throrough conversation](https://github.com/auth0/express-openid-connect/issues/426) with Openid Connect library maintainers on the scope of CSRF attacks against the library (Planning a PR to add [documentation](https://github.com/madaster97/express-openid-connect/blob/addl-csrf-docs/EXAMPLES.md#11-use-sdk-session-for-csrf-protection) on edge cases)
+- Added a [CSRF protection example](https://github.com/auth0/express-openid-connect/pull/453) to an Openid Connect Library after a [throrough conversation](https://github.com/auth0/express-openid-connect/issues/426) with library maintainers on the scope of CSRF attacks against the library
