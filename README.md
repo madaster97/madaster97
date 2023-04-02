@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 #### Authentication Systems
 - [Contributed](https://github.com/tavrez/openssh-sk-winhello/pull/16) to a FIDO/WebAuthn library that bridges OpenSSH with Windows Hello
 - Identified a broken authentication issue in one of my company's integrations. I used my knowledge of crpytography to exploit an encryption system
-- 
+
 #### RESTful Web Services
 - [Updated](https://github.com/cds-hooks/api/pull/5) the Swagger/OpenAPI spec for the CDS Hooks REST API
 - [Implemented](https://github.com/madaster97/puri-fhir) an example CDS Hooks service for my company's use in demos (hosted in pipedream)
