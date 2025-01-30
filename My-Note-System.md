@@ -9,6 +9,17 @@ Create wikis: But my own stuff is mine! No touchy
 
 Example: BWC Ian perspective notes
 
+## Helpful Links
+[VSCode VIM Extension](https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md)
+[Relative Line #s](https://stackoverflow.com/questions/4967217/relative-line-numbers-in-visual-studio)
+[MARKSMAN LSP](https://github.com/artempyanykh/marksman-vscode)
+
+## Helpful VSCode
+`CTRL + SHIFT + E` - Hop to file explorer/back\
+`SHIFT + ALT + F` - Search in selected folder\
+
+https://code.visualstudio.com/docs/editor/editingevolved
+
 ## More Hotkeys
 Close Sidebar - `CTRL + B`
 
