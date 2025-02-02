@@ -73,6 +73,9 @@ Use Pandoc Markdown! Will have better mediawiki integration for sure (like nesti
 - https://rwx.gg/lang/md/pandoc/
 - https://pandoc.org/MANUAL.html#pandocs-markdown
 
+### Pandoc Resources
+[Article](https://opensource.com/article/19/5/convert-markdown-to-word-pandoc) on MD to DOCX
+
 ### Neovim
 *Didn't do this, just VSCode*
 
