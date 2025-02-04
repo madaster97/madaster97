@@ -1,22 +1,28 @@
 # Note Taking:
-Structure and intention!
+Love this guy's note-taking approach:
 
-Understand through writing
+## Mischa van den Burg
+https://mischavandenburg.com/zet/neovim-zettelkasten/
+https://www.youtube.com/watch?v=Xw3SkhB4dMk
 
-Kanban of interesting ideas somewhere?
+> I have a directory structure based on the [PARA method](https://fortelabs.com/blog/para/), but I also have a large Zettelkasten directory where I put anything that does not necessary belong to a category.
 
-Create wikis: But my own stuff is mine! No touchy
+> I recommend [this article](https://rwx.gg/lang/md/) about the benefits and merits of using markdown for note-taking.
 
-Example: BWC Ian perspective notes
+### Principles
+- Structure and intention!
+- Understand through writing
 
 ## Helpful Links
 [VSCode VIM Extension](https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md)
 [Relative Line #s](https://stackoverflow.com/questions/4967217/relative-line-numbers-in-visual-studio)
 [MARKSMAN LSP](https://github.com/artempyanykh/marksman-vscode)
 
-## Helpful VSCode
+## Helpful VSCode Hotkeys
+`CTRL + SHIFT + P` - Open command palette (then search for "Markdown Preview")
 `CTRL + SHIFT + E` - Hop to file explorer/back\
 `SHIFT + ALT + F` - Search in selected folder\
+`CTRL + B` - Close the file explorer sidebar
 
 https://code.visualstudio.com/docs/editor/editingevolved
 
@@ -28,7 +34,6 @@ Close Sidebar - `CTRL + B`
 - Installed Pandoc (no VSCode extension just CLI it)
 - Have VSCode previewing MD 
 
-Example: Want the symbolpage hash code? OneNote > General > Link > Find the page 
 
 ### Marksman
 Remember .marksman.toml!\
@@ -40,14 +45,6 @@ _TODO_ - Figure out reference links + how to view/navigate + wiki linking
 ## Resources
 ### Titus Tech
 https://www.youtube.com/watch?v=ZR_Kjg9GIBM
-
-### Mischa van den Burg
-https://mischavandenburg.com/zet/neovim-zettelkasten/
-https://www.youtube.com/watch?v=Xw3SkhB4dMk
-
-> I have a directory structure based on the [PARA method](https://fortelabs.com/blog/para/), but I also have a large Zettelkasten directory where I put anything that does not necessary belong to a category.
-
-> I recommend [this article](https://rwx.gg/lang/md/) about the benefits and merits of using markdown for note-taking.
 
 
 ### PARA method
