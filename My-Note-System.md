@@ -70,8 +70,15 @@ Use Pandoc Markdown! Will have better mediawiki integration for sure (like nesti
 - https://rwx.gg/lang/md/pandoc/
 - https://pandoc.org/MANUAL.html#pandocs-markdown
 
-### Pandoc Resources
-[Article](https://opensource.com/article/19/5/convert-markdown-to-word-pandoc) on MD to DOCX
+### Pandoc Markdown to MediaWiki
+Remember to `*` your lists, not `-`:
+```powershell
+pandoc --wrap=preserve -f markdown-smart "your markdown file here" -t mediawiki --ascii
+```
+
+References:
+- [Wrap Preserve](https://stackoverflow.com/questions/63350182/pandoc-not-generating-new-lines-in-markdown-with-latex)
+- [ascii for stupid quotes fix](https://github.com/jgm/pandoc/issues/7666)
 
 ### Neovim
 *Didn't do this, just VSCode*
