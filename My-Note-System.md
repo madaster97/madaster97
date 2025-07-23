@@ -80,6 +80,11 @@ References:
 - [Wrap Preserve](https://stackoverflow.com/questions/63350182/pandoc-not-generating-new-lines-in-markdown-with-latex)
 - [ascii for stupid quotes fix](https://github.com/jgm/pandoc/issues/7666)
 
+### Pandoc Markdown to powerpoint
+[Helpful Article](https://stymied.medium.com/what-slides-from-markdown-5239ed31e7ac)
+
+If you have a bullet list and some text on one slide, need to **put a newline** after the text before the list
+
 ### Neovim
 *Didn't do this, just VSCode*
 
