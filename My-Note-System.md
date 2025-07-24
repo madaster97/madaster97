@@ -85,6 +85,13 @@ References:
 
 If you have a bullet list and some text on one slide, need to **put a newline** after the text before the list
 
+Planning a powershell script to open/close powerpoint from powershell, piping in my file:
+<https://stackoverflow.com/questions/72747198/how-to-write-powershell-script-to-open-and-close-a-program>
+
+```powershell
+$exe = "C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE"
+```
+
 ### Neovim
 *Didn't do this, just VSCode*
 
