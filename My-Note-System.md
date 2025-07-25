@@ -1,51 +1,28 @@
 # Note Taking:
-Love this guy's note-taking approach:
 
-## Mischa van den Burg
-https://mischavandenburg.com/zet/neovim-zettelkasten/
-https://www.youtube.com/watch?v=Xw3SkhB4dMk
+## What I've Done
+- Have a *Notes* folder full of PARA-organized folders, take notes in [Markdown documents](#markdown-notetaking)
+- Have VSCode previewing markdown
+- Have [VSCode Vim Extension](#vim-motions-in-vs-code)
+- Installed Marksman VSCode extension (see [below](#marksman)), to do things like:
+  - `[[other-file-header]]` to reference other files and get hover text and CTRL+Click to open them. Quick plug for `gd` vim command (go to definition), **works in epiccode integration too** to open other routines! Use `gt` to go back to last file
+  - `![Picture Description](picture-name.png]]` to reference pictures
+    - When converting to MediaWiki, re-formats to create a link wiki recognizes, can click to quickly upload your image!
+    - And if you keep your images next to your files, they get pulled into powerpoint just fine!
+- Installed Pandoc (no VSCode extension just command line it)
+
+## Mischa van den Burg Notetaking
+Love this guy's note-taking approach:
+- https://mischavandenburg.com/zet/neovim-zettelkasten/  
+- https://www.youtube.com/watch?v=Xw3SkhB4dMk
 
 > I have a directory structure based on the [PARA method](https://fortelabs.com/blog/para/), but I also have a large Zettelkasten directory where I put anything that does not necessary belong to a category.
 
 > I recommend [this article](https://rwx.gg/lang/md/) about the benefits and merits of using markdown for note-taking.
 
 ### Principles
-- Structure and intention!
+- Structure and intention
 - Understand through writing
-
-## Helpful Links
-[VSCode VIM Extension](https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md)
-[Relative Line #s](https://stackoverflow.com/questions/4967217/relative-line-numbers-in-visual-studio)
-[MARKSMAN LSP](https://github.com/artempyanykh/marksman-vscode)
-
-## Helpful VSCode Hotkeys
-`CTRL + SHIFT + P` - Open command palette (then search for "Markdown Preview")
-`CTRL + SHIFT + E` - Hop to file explorer/back\
-`SHIFT + ALT + F` - Search in selected folder\
-`CTRL + B` - Close the file explorer sidebar
-
-https://code.visualstudio.com/docs/editor/editingevolved
-
-## More Hotkeys
-Close Sidebar - `CTRL + B`
-
-## What I've Done
-- Installed Marksman VSCode extension
-- Installed Pandoc (no VSCode extension just CLI it)
-- Have VSCode previewing MD 
-
-
-### Marksman
-Remember .marksman.toml!\
-Check out their [features](https://github.com/artempyanykh/marksman/blob/main/docs/features.md#workspace-folders-project-roots-and-single-file-mode)\
-[Config available](https://github.com/artempyanykh/marksman/blob/main/Tests/default.marksman.toml) includes *title_from_heading*
-Remember *Ambiguous link to document* - Default config is not allow multiple top-level headings
-_TODO_ - Figure out reference links + how to view/navigate + wiki linking
-
-## Resources
-### Titus Tech
-https://www.youtube.com/watch?v=ZR_Kjg9GIBM
-
 
 ### PARA method
 *Projects, Areas, Resources, Archive*
@@ -64,7 +41,9 @@ Finally, you have archives, which include anything from the previous three categ
 It may be difficult to believe that a complex, modern human life like yours can be reduced to just four categories. It may feel like you have far more to deal with than can fit into such a simple system.
 But that is exactly the point: if your organizational system is as complex as your life, then the demands of maintaining it will end up robbing you of the time and energy you need to live that life.
 
-### Markdown Note Taking
+## Markdown Notetaking
+[MARKSMAN LSP](https://github.com/artempyanykh/marksman-vscode)
+
 Use Pandoc Markdown! Will have better mediawiki integration for sure (like nesting references to other docs)
 - https://rwx.gg/lang/md/
 - https://rwx.gg/lang/md/pandoc/
@@ -91,6 +70,35 @@ Planning a powershell script to open/close powerpoint from powershell, piping in
 ```powershell
 $exe = "C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE"
 ```
+
+## Vim Motions
+Pretty convincing video on learning [Vim keyboard shortcuts/motions](https://youtu.be/sqm4-B07LsE?si=1Mc1AEm8Rrc1DFw5)
+
+And here's [edgier guy](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R) that wrote nice tutorials
+
+### Vim Motions in VS Code
+[VSCode VIM Extension](https://github.com/VSCodeVim/Vim/blob/HEAD/ROADMAP.md)
+[Relative Line #s](https://stackoverflow.com/questions/4967217/relative-line-numbers-in-visual-studio)
+
+### Helpful VSCode Hotkeys for Notetaking
+`CTRL + SHIFT + P` - Open command palette (then search for "Markdown Preview")
+`CTRL + SHIFT + E` - Hop to file explorer/back\
+`SHIFT + ALT + F` - Search in selected folder\
+`CTRL + B` - Close the explorer sidebar
+
+https://code.visualstudio.com/docs/editor/editingevolved
+
+## Marksman
+Remember .marksman.toml!  
+Check out their [features](https://github.com/artempyanykh/marksman/blob/main/docs/features.md#workspace-folders-project-roots-and-single-file-mode)  
+[Config available](https://github.com/artempyanykh/marksman/blob/main/Tests/default.marksman.toml) includes *title_from_heading*
+
+Remember *Ambiguous link to document* - Default config is not allow multiple top-level headings
+
+## Honorable Mentions
+
+### Titus Tech
+https://www.youtube.com/watch?v=ZR_Kjg9GIBM
 
 ### Neovim
 *Didn't do this, just VSCode*
