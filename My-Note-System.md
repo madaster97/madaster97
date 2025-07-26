@@ -92,6 +92,20 @@ Added a couple of my own:
 - ([guide here](https://medium.com/vs-code-keybindings/keyboardizing-the-search-view-ac6026acea5b)): Made `enter` the hotkey to focus on search results (when in search results pane): `search.action.focusSearchList`. Otherwise you have to hit tab **13 times**
 - Made `CTRL + SHIFT + U` put focus on search results pane. Helpful for hopping through lots of results. Vim j/k hotkeys let you navigate within the results
 
+Put this in your keyboard settings JSON (look in command palette):
+```json
+[  {
+    "key": "enter",
+    "command": "search.action.focusSearchList",
+    "when": "searchViewletVisible && searchViewletFocus && hasSearchResult && !matchFocus"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "workbench.view.search.focus"
+  }
+]
+```
+
 ## Marksman
 Remember .marksman.toml!  
 Check out their [features](https://github.com/artempyanykh/marksman/blob/main/docs/features.md#workspace-folders-project-roots-and-single-file-mode)  
