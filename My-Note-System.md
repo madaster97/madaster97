@@ -2,7 +2,7 @@
 
 ## What I've Done
 - Have a *Notes* folder full of PARA-organized folders, take notes in [Markdown documents](#markdown-notetaking)
-- Have VSCode previewing markdown
+- Have VSCode for previewing and editing markdown, learned [hotkeys](#helpful-vscode-hotkeys-for-notetaking)
 - Have [VSCode Vim Extension](#vim-motions-in-vs-code)
 - Installed Marksman VSCode extension (see [below](#marksman)), to do things like:
   - `[[other-file-header]]` to reference other files and get hover text and CTRL+Click to open them. Quick plug for `gd` vim command (go to definition), **works in epiccode integration too** to open other routines! Use `gt` to go back to last file
@@ -87,6 +87,10 @@ And here's [edgier guy](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323L
 `CTRL + B` - Close the explorer sidebar
 
 https://code.visualstudio.com/docs/editor/editingevolved
+
+Added a couple of my own:
+- ([guide here](https://medium.com/vs-code-keybindings/keyboardizing-the-search-view-ac6026acea5b)): Made `enter` the hotkey to focus on search results (when in search results pane): `search.action.focusSearchList`. Otherwise you have to hit tab **13 times**
+- Made `CTRL + SHIFT + U` put focus on search results pane. Helpful for hopping through lots of results. Vim j/k hotkeys let you navigate within the results
 
 ## Marksman
 Remember .marksman.toml!  
