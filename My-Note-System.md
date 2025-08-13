@@ -5,7 +5,7 @@
 - Have VSCode for previewing and editing markdown, learned [hotkeys](#helpful-vscode-hotkeys-for-notetaking)
 - Have [VSCode Vim Extension](#vim-motions-in-vs-code)
 - Installed Marksman VSCode extension (see [below](#marksman)), to do things like:
-  - `[[other-file-header]]` to reference other files and get hover text and CTRL+Click to open them. Quick plug for `gd` vim command (go to definition), **works in epiccode integration too** to open other routines! Use `gt` to go back to last file
+  - `[[other-file-header]]` to reference other files and get hover text and CTRL+Click to open them. Quick plug for `gd` vim command (go to definition), **works in epiccode integration too** to open other routines! Use `CTRL+O` to go back to last file
   - `![Picture Description](picture-name.png]]` to reference pictures
     - When converting to MediaWiki, re-formats to create a link wiki recognizes, can click to quickly upload your image!
     - And if you keep your images next to your files, they get pulled into powerpoint just fine!
