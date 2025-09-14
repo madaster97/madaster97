@@ -15,7 +15,6 @@
 Love this guy's note-taking approach:
 - Why you should take structured notes: https://www.youtube.com/watch?v=Xw3SkhB4dMk
 - The PARA method: https://www.youtube.com/watch?v=oxUVn37-Igk
-- Blog post on PARA: https://mischavandenburg.com/zet/neovim-zettelkasten/
 
 > I have a directory structure based on the [PARA method](https://fortelabs.com/blog/para/), but I also have a large Zettelkasten directory where I put anything that does not necessary belong to a category.
 
