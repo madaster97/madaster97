@@ -42,15 +42,21 @@ It may be difficult to believe that a complex, modern human life like yours can 
 But that is exactly the point: if your organizational system is as complex as your life, then the demands of maintaining it will end up robbing you of the time and energy you need to live that life.
 
 ## Markdown Notetaking
-[MARKSMAN LSP](https://github.com/artempyanykh/marksman-vscode)
-
 Use Pandoc Markdown! Will have better mediawiki integration for sure (like nesting references to other docs)
 - https://rwx.gg/lang/md/
 - https://rwx.gg/lang/md/pandoc/
 - https://pandoc.org/MANUAL.html#pandocs-markdown
 
+### VSCode Default File Type
+Go to *Preferences* > *User Settings (JSON)*, add this:
+```
+"files.defaultLanguage": "html"
+```
+
 ### Pandoc Markdown to MediaWiki
-Remember to `*` your lists, not `-`:
+Remember to `*` your lists, not `-`
+
+Then run this command (from the right folder):
 ```powershell
 pandoc --wrap=preserve -f markdown-smart "your markdown file here" -t mediawiki --ascii
 ```
@@ -107,11 +113,11 @@ Put this in your keyboard settings JSON (look in command palette):
 ```
 
 ## Marksman
-Remember .marksman.toml!  
+[MARKSMAN LSP](https://github.com/artempyanykh/marksman-vscode)
+
+Remember to create `.marksman.toml` file, so extension turns on!  
 Check out their [features](https://github.com/artempyanykh/marksman/blob/main/docs/features.md#workspace-folders-project-roots-and-single-file-mode)  
 [Config available](https://github.com/artempyanykh/marksman/blob/main/Tests/default.marksman.toml) includes *title_from_heading*
-
-Remember *Ambiguous link to document* - Default config is not allow multiple top-level headings
 
 ## Honorable Mentions
 
